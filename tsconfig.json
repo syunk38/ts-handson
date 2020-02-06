@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "baseUrl": "./",
+        "baseUrl": ".",
         "paths": {
-            "@src": ["src"],
+            "@src/*": ["src/*"]
         },
         "outDir": "./dist/",
         "sourceMap": true,
@@ -18,6 +18,6 @@
         ]
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*", "./tests/**/*"
     ]
 }

@@ -1,4 +1,4 @@
-import { add } from '../src/testSamples/add';
+import { add } from '@src/testSamples/add';
 
 describe('add', (): void => {
   test('should return 3', (): void => {
