@@ -7,7 +7,7 @@
         "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
-        "module": "umd",
+        "module": "es6",
         "esModuleInterop": true,
         "target": "es5",
         "jsx": "react",
